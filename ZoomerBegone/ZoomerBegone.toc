@@ -3,5 +3,6 @@
 ## Notes: Filters Twitch chat from the game
 ## Author: Viliger
 ## Version: 1.0.0
+## SavedVariables: ZoomerBegoneVars
 
 ZoomerBegone.lua
