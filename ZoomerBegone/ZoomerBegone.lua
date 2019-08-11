@@ -1,6 +1,5 @@
 -- TODO:
 -- add actual UI
--- filter more than one emote at once
 
 -- a list of twitch chat emotes
 -- a list by no means full, but it should be enough for now
@@ -401,19 +400,32 @@ end
 
 -- handles chat events
 local function ZoomerBegone_onChatEvent(self, event, msg, author, ...)
-
-	for i, emote in ipairs(emoticons) do
-		if string.find(string.lower(msg), string.lower(emote)) then
-			if ZoomerBegoneVars.mode == 1 then
-				return false, ZoomerBegone_RemoveEmoticon(msg, emote), author, ...
-			elseif ZoomerBegoneVars.mode == 2 then
-				return true;
-			elseif ZoomerBegoneVars.mode == 3 then
-				ZoomerBegone_AddIgnore(author)
-				return true;
+	
+	if ZoomerBegoneVars.mode == 1 then
+		for i, emote in ipairs(emoticons) do
+			if string.find(string.lower(msg), string.lower(emote)) then
+				msg = ZoomerBegone_RemoveEmoticon(msg, emote)
 			end
-		end	
+		end
+		local tempmsg = string.gsub(msg, "%s+", "")
+		if string.len(tempmsg) == 0 then
+			return true;
+		else
+			return false, msg, author, ...
+		end
+	else
+		for i, emote in ipairs(emoticons) do
+			if string.find(string.lower(msg), string.lower(emote)) then
+				if ZoomerBegoneVars.mode == 2 then
+					return true;
+				elseif ZoomerBegone.mode == 3 then
+					ZoomerBegone_AddIgnore(author)
+					return true
+				end
+			end
+		end
 	end
+	
 end
 
 -- adds chat filter to the channel
