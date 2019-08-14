@@ -476,7 +476,7 @@ local function ZoomerBegone_onChatEvent(self, event, msg, author, ...)
 			if string.find(string.lower(msg), string.lower(emote)) then
 				if ZoomerBegoneVars.mode == 2 then
 					return true;
-				elseif ZoomerBegone.mode == 3 then
+				elseif ZoomerBegoneVars.mode == 3 then
 					ZoomerBegone_AddIgnore(author)
 					return true
 				end
