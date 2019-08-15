@@ -429,7 +429,13 @@ end
 -- adds character to the ignore list
 -- if GlobalIgnoreList is present then it uses that instead
 local function ZoomerBegone_AddIgnore(author)
-
+	
+	local playerName = UnitName("player")
+	
+	if (author == playerName) then
+		return
+	end
+	
 	loaded = IsAddOnLoaded("GlobalIgnoreList");
 		
 	if(loaded) then
@@ -452,7 +458,7 @@ local function ZoomerBegone_AddIgnore(author)
 		
 	end
 	
-	AddIgnore(author)
+	C_FriendList.AddIgnore(author)
 
 end
 
