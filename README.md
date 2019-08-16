@@ -22,3 +22,5 @@ It was written and tested on retail version of WoW, however I am going to use it
 There is one limitation - it doesn't filter speech bubbles. But as far as I am aware there is no way to edit them, you either seem them or don't.
 
 Feel free to ask me to add additional emotes (however, I think those are way to specific to be worth the CPU load they would cause) and features.
+
+A big thanks to Frankfurter1988 for beta testing the addon before Classic release.
