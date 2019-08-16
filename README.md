@@ -23,4 +23,4 @@ There is one limitation - it doesn't filter speech bubbles. But as far as I am a
 
 Feel free to ask me to add additional emotes (however, I think those are way to specific to be worth the CPU load they would cause) and features.
 
-A big thanks to Frankfurter1988 for beta testing the addon before Classic release.
+A big thanks to Feral on the Herod server for beta testing the addon before Classic release.
