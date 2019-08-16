@@ -436,6 +436,10 @@ local function ZoomerBegone_AddIgnore(author)
 		return
 	end
 	
+	if(C_FriendList.IsIgnored(author)) then
+		return
+	end
+	
 	loaded = IsAddOnLoaded("GlobalIgnoreList");
 		
 	if(loaded) then
