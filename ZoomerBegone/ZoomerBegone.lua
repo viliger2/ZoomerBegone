@@ -63,6 +63,21 @@ local strings = {
 -- a list by no means full, but it should be enough for now
 local emoticons = {
 	-- twitch emotes
+	"asmon layer",
+	"Asmon Layer",
+	"Asmon layer",
+	"asmon Layer",
+	"ASMON LAYER",
+	"asmon layer",
+	"Asmon Layer",
+	"Asmon layer",
+	"asmon Layer",
+	"ASMON LAYER",
+	"asmon lair",
+	"Asmon Lair",
+	"Asmon lair",
+	"asmon Lair",
+	"ASMON LAIR",
 	"4Head",
 	"ANELE",
 	"ArgieB8",
