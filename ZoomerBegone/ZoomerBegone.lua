@@ -66,7 +66,7 @@ local emoticons = {
 	"Asmon Layer",
 	"Asmon Lair",
 	"Invite to Asmon",
-	-- twitch фтв BTTV emotes
+	-- twitch and BTTV emotes
 	-- reformated them in order to not remove just some part of the emote
 	-- so now we try to detect from the longest emote to the shortest
 	"GenderFluidPride",
