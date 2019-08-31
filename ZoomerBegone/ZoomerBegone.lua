@@ -128,7 +128,7 @@ local emoticons = {
 	"BibleThump",
 	"BigBrother",
 	"BloodTrail",
-	"FeelsOhWait"
+	"FeelsOhWait",
 	"gachiHYPER",
 	"HassanChop",
 	"HolidayLog",
