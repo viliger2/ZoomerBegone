@@ -867,7 +867,9 @@ local function EventHandler (self, event, sender, ...)
 		end
 	
 		ZoomerBegone_CreateUI()
-	
+		
+		ZBFRAME:UnregisterEvent("ADDON_LOADED")
+
 	end
 
 end
