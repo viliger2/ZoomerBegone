@@ -323,6 +323,7 @@ local emoticons = {
 	"WowPls",
 	"WTRuck",
 	"YouWHY",
+	"monka",
 	"4Head",
 	"ANELE",
 	"AYAYA",
@@ -344,10 +345,10 @@ local emoticons = {
 	"Thonk",
 	"ZULUL",
 	"HSWP",
+	"LULW",
 	"Mau5",
 	"mcaT",
 	"UWot",
-	"LUL",
 	"pog",
 }
 
