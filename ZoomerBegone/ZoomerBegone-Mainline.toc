@@ -1,4 +1,4 @@
-## Interface: 20501
+## Interface: 90005
 ## Title: ZoomerBegone
 ## Notes: Filters Twitch chat from the game
 ## Author: Viliger
