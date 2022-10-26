@@ -350,6 +350,9 @@ local emoticons = {
 	"mcaT",
 	"UWot",
 	"pog",
+	"kekw",
+	"sadge",
+	"smadge",
 }
 
 -- a list of channels, it is easier to print them out and remove\add from filtering this way
