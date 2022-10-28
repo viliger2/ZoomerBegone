@@ -2,7 +2,7 @@
 ## Title: ZoomerBegone
 ## Notes: Filters Twitch chat from the game
 ## Author: Viliger
-## Version: 1.0.7
+## Version: 1.0.8
 ## SavedVariables: ZoomerBegoneVars
 
 ZoomerBegone.lua
